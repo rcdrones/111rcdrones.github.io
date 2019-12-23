@@ -2,10 +2,11 @@
 title: RPi Club
 subtitle: 资料站
 description: 欢迎来到RPi Club资料站~
+
 # 头像里面的标题
 avatarTitle: rcdrones
 # 头像里面的描述
-avatarDesc: 视频视频 / 项目实战
+avatarDesc: 视频教程 / 项目实战
 url: "https://rcdrones.github.io"
 
 # Comment
