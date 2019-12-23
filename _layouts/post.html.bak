@@ -21,12 +21,7 @@ layout: default
 </article>
 
 
-<!-- video section -->
-<div class="section ie-size">
-  <!-- video section -->
-  {% include embedded-video.html %}
 
-</div>
-
+{% include embedded-video.html %}
 
 {% include comments.html %}
