@@ -2,9 +2,8 @@
 layout: post
 title: "有具体的需求，如何查找apt软件的名称？"
 description: "Pi4 apt软件查找、安装、卸载的专题"
-tag: pi4 
+tag: pi4 raspbian
 ---   
-
 
 
 ## 需求

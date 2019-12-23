@@ -1,13 +1,9 @@
-
-
 ---
 layout: post
 title: "Raspbian应用推荐：在Pi4上书写Markdown文件（程序员必备的技能）"
 description: "ghostwriter软件教程"
 tag: pi4 raspbian
 ---  
-
-
 
 
 ## 前言

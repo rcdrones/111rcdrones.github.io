@@ -1,12 +1,9 @@
-
-
 ---
 layout: post
 title: "Pi4如何和Windows交互文件"
 description: "sftp和samba教程"
 tag: pi4 
 ---   
-
 
 
 ## 前语
