@@ -1,5 +1,7 @@
 ---
 layout: post
+b_av: 73811755
+b_cid: 126255556
 title: "Pi4 Raspbian中文显示和安装输入法的教程"
 description: "显示中文字体和中文输入法安装"
 tag: Pi4-入门
