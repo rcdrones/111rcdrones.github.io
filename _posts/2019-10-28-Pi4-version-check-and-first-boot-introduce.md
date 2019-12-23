@@ -2,7 +2,7 @@
 layout: post
 title: "Pi4 第一次启动和硬件版本鉴别"
 description: "从软硬件角度识别Pi4的版本"
-tag: pi4 
+tag: Pi4-入门 
 ---   
 
 

@@ -1,9 +1,8 @@
-
 ---
 layout: post
 title: "Raspbian下，好用的录屏软件"
 description: "simplescreenrecorder教程"
-tag: pi4 raspbian
+tag: Raspbian-软件
 ---   
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Pi4 Raspbian中文显示和安装输入法的教程"
 description: "显示中文字体和中文输入法安装"
-tag: pi4 raspbian
+tag: Pi4-入门
 ---   
 
 

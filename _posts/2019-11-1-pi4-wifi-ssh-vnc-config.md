@@ -2,7 +2,7 @@
 layout: post
 title: "Pi4激活WIFI、使能SSH、搭建VNC的教程"
 description: "树莓派4 无显示器和键盘，该怎么玩？"
-tag: pi4 
+tag: Pi4-入门 
 ---   
 
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Raspbian应用推荐：好用的截图工具"
 description: "flameshot软件教程"
-tag: pi4 raspbian
+tag: Raspbian-软件
 ---   
 
 
