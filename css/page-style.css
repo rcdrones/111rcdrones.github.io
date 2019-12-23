@@ -18,21 +18,76 @@ height: 100%;
 }
 
 
-/* ======= IE ====== */
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-  .ie-size {
-  width: 700px;
-  margin: 0.5em auto;
+
+
+/* ===================== less than 800px ==================== */
+/* ======= tutorial content menu ========= */
+@media screen and (max-width: 800px) {
+  .tut-content-menu {
+  right: 1em;
   }
-  .tut-right-bar {
-  width: calc(1000px - 700px);
-  }
-  .tut-post-main {
-  margin-left:10%;
-  }
-  @media screen and  (max-width: 40.5em) {
-  .ie-size {
+  main, main .tut-post-main {
   width: 100%;
   }
+  .tut-right-bar, .mobile-hid {
+  display: none;
   }
+  main .video-container, main .video-container iframe, main .video-container object, main .video-container embed {
+  max-width: 100%;
+  margin: 0 auto;
+  }
+}
+
+
+
+
+/* ===================== more than 800px ==================== */
+/* ====== video ===== */
+@media screen and (min-width: 800px) {
+  main .video-container, main .video-container iframe, main .video-container object, main .video-container embed {
+  max-width: 800px;
+  margin: 0 auto;
+  }
+  main {
+    width: 800px;
+  }
+  main.tut-main {
+  margin: 0;
+  }
+  .tut-content-menu {
+  display: none;
+  }
+}
+
+@media screen and (min-width: 800px and max-width: 1000px) {
+  main.tut-main {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  main.tut-main {
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+
+/* ======= IE ====== */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+     .ie-size {
+     width: 700px;
+     margin: 0.5em auto;
+     }
+     .tut-right-bar {
+     width: calc(1000px - 700px);
+     }
+     .tut-post-main {
+     margin-left:10%;
+     }
+     @media screen and  (max-width: 40.5em) {
+     .ie-size {
+     width: 100%;
+     }
+     }
 }

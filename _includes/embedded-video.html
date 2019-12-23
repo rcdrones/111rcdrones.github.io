@@ -9,10 +9,10 @@
 	<div id="videogfw" class="video-container">
 		<!-- video embedding-->
 		<script type="text/javascript" async>
-			var bilibili_src = "//player.bilibili.com/player.html?aid={{ page.b_av }}&cid={{ page.b_cid }}&page={{ page.b_page }}";
+			var bilibili_src = "//player.bilibili.com/player.html?aid={{ page.b_av }}&cid={{ page.b_cid }}";
 			// var bilibili_src = "//static.hdslb.com/miniloader.swf?aid={{page.b_av}}";
 
-    	getEmbeddedVideo(bilibili_src, "{{page.b_av}}/?p={{page.b_page}}", youtube_src, "{{page.youtube_id}}", youku_src, "{{page.youku_id}}");
+    	getEmbeddedVideo(bilibili_src, "{{page.b_av}}", youtube_src, "{{page.youtube_id}}", youku_src, "{{page.youku_id}}");
 		</script>
 	</div>
 
