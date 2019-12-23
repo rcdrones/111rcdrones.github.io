@@ -15,38 +15,39 @@ tag: Raspbian-软件
 
 ## 查询包名称的命令
 
-```
+```shell
+
 sudo apt-cache search "xxx"
 
-#比如我想找个音频播放器
+# 比如我想找个音频播放器
 sudo apt-cache search "audio player" 
 得到关键词qmmp
 
 
 sudo apt-cache search "foobar" 
-得到关键信息lxmusic
+# 得到关键信息lxmusic
 
 
-#终端返回的信息量太大，怎么办？
+# 终端返回的信息量太大，怎么办？
 cd ~
 sudo apt-cache search "edit" >> 1.txt
-然后查看1.txt文件
+# 然后查看1.txt文件
 
-#显示更多用法：
+# 显示更多用法：
 sudo apt-cache --help
 
 
 ```
 
 ## 安装软件和卸载软件
-```
-#安装
+```shell
+# 安装
 sudo apt-get install qmmp -y
 
-#卸载
+# 卸载
 sudo apt-get autoremove qmmp
 
-#帮助
+# 帮助
 sudo apt-get --help
 
 ```

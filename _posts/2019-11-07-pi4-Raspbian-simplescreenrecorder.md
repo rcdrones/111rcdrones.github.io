@@ -22,9 +22,10 @@ tag: Raspbian-软件
 
 
 ## 安装
-
-` sudo apt-get install simplescreenrecorder -y`
-
+```
+sudo apt-get install simplescreenrecorder -y
+```
 
 
 ## 使用
+见视频

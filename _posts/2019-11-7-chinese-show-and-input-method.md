@@ -5,8 +5,13 @@ description: "显示中文字体和中文输入法安装"
 tag: Pi4-入门
 ---   
 
+本文主要讲解如下内容：
+* 软件源更改
+* 中文字库和中文输入法安装
+* 输入法模糊音设置
 
-## 常规安装软件格式 
+
+## Raspbian下安装软件命令 
 
 ```shell
 sudo apt-get install xxxxxx

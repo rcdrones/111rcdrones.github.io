@@ -1,0 +1,148 @@
+I"�<h2 id="前言">前言</h2>
+
+<p>Github上开源的项目，一般都是以<em>*.md</em>形式存在（比如项目初始化会产生一个README.md）。这就是Markdown格式的文件。Markdown不用你去选择字号，写作的时候很少用到鼠标。可以把你的专注以限定在写作的本身。这是我的开发感悟。</p>
+
+<p>由于Pi4足够强大，一切开发的工序都在Raspbian Desktop上完成，今天我们就介绍一些Raspbian上书写Markdown的工具。</p>
+
+<h2 id="安装">安装</h2>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install ghostwriter -y
+</code></pre></div></div>
+
+<h2 id="markdown语法">Markdown语法</h2>
+
+<p>经常会用到的就是如下：</p>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>一级标题，到多级标题
+#_ 
+##_ 
+###_
+
+</code></pre></div></div>
+
+<h1 id="haha1">haha1</h1>
+
+<h2 id="haha2">haha2</h2>
+
+<h3 id="haha3">haha3</h3>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>序号，例如写产品的特点，软件的特色等内容
+*_ 
+1._ 
+</code></pre></div></div>
+
+<ul>
+  <li>特点1</li>
+  <li>特点2
+    <ol>
+      <li>软件内容一</li>
+      <li>软件内容二</li>
+    </ol>
+  </li>
+</ul>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>插入图片
+![](path)
+</code></pre></div></div>
+
+<p><img src="http://img.juimg.com/tuku/yulantu/140726/330632-140H620542138.jpg" alt="小可爱" /></p>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>网页链接
+[网易](https://www.163.com)
+</code></pre></div></div>
+
+<p><a href="https://www.163.com">网易</a></p>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>表格：
+
+| 姓名 | 电话 | 地址 |
+| :--: | :--: | :--: |
+|  11  |  44  |  77  |
+|  22  |  55  |  88  |
+|  33  |  66  |  99  |
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">姓名</th>
+      <th style="text-align: center">电话</th>
+      <th style="text-align: center">地址</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">11</td>
+      <td style="text-align: center">44</td>
+      <td style="text-align: center">77</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">22</td>
+      <td style="text-align: center">55</td>
+      <td style="text-align: center">88</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">33</td>
+      <td style="text-align: center">66</td>
+      <td style="text-align: center">99</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>引用文献：
+&gt;  阅读使人充实，会谈使人敏捷，写作使人精确。——培根 
+</code></pre></div></div>
+
+<blockquote>
+  <p>阅读使人充实，会谈使人敏捷，写作使人精确。——培根</p>
+</blockquote>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TODO列表
+- [ ] bug1改正
+- [ ] bug2改正
+- [ ] 不停的修bug，:(
+</code></pre></div></div>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />bug1改正</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />bug2改正</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />不停的修bug，:(</li>
+</ul>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>内容分割线
+------
+</code></pre></div></div>
+
+<p>哈哈哈</p>
+
+<hr />
+
+<p>哈哈哈哈</p>
+
+<hr />
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>注释
+&lt;!--今天写完了--&gt;
+
+删除线
+~~111111111111~~
+</code></pre></div></div>
+
+<p><del>888888888888</del></p>
+
+:ET

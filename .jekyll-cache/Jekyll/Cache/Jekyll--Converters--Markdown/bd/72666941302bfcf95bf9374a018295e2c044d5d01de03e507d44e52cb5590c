@@ -1,0 +1,67 @@
+I"�<h2 id="硬件">硬件</h2>
+<p>连接MicroHDMI接口（主从接口，注意：插到底！），5V3A电源适配器，Type-C电源口。已经刷好系统的TF卡，插入Pi4背后的TF卡座里面。</p>
+
+<h2 id="软件">软件</h2>
+
+<ul>
+  <li>过了raspbian自检流程后，设置系统的一些配置：</li>
+</ul>
+
+<ol>
+  <li>
+    <p>设置地区</p>
+  </li>
+  <li>
+    <p>设置文字</p>
+  </li>
+  <li>
+    <p>设置时区</p>
+  </li>
+  <li>
+    <p>设置US-104键盘</p>
+  </li>
+  <li>
+    <p>设置wifi</p>
+  </li>
+</ol>
+
+<ul>
+  <li>硬件鉴别</li>
+</ul>
+
+<ol>
+  <li>
+    <p>内存版本鉴别最简单的命令
+<code class="highlighter-rouge">pinout</code></p>
+  </li>
+  <li>
+    <p>htop查看占用和总容量
+<code class="highlighter-rouge">htop</code></p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">gpio -v</code> （通过WiringPi） <em>目前系统是：2019-09-26-raspbian-buster-full.zip</em></p>
+  </li>
+  <li>
+    <ul>
+      <li>查看CPU信息<code class="highlighter-rouge">lscpu</code></li>
+    </ul>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <p>查看CPU 序列号：<code class="highlighter-rouge">cat /proc/cpuinfo</code></p>
+  </li>
+  <li>
+    <p>查看CPU频率：</p>
+  </li>
+</ul>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   sudo cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq 
+
+   sudo cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_min_freq 
+
+   sudo cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq 
+</code></pre></div></div>
+
+:ET

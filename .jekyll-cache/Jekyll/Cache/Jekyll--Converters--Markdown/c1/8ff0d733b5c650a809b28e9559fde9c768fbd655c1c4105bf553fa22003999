@@ -1,0 +1,18 @@
+I"�<h2 id="需求">需求</h2>
+
+<p>很早我就想把我的知识分享给世界。在Pi上，尤其难做。一般会用个手机去拍摄Raspbian的桌面，然后在制作视频教程，这样画面不清楚，文件又很大（杂讯较多）。直到有一天，我发现了apt软件搜索功能。解决了困扰我多年的<code class="highlighter-rouge">apt-get install xxx</code>的问题。</p>
+
+<h2 id="预备">预备</h2>
+
+<ul>
+  <li>装好Raspbian</li>
+  <li>中文源设置好</li>
+  <li>中文字库和输入法设置好</li>
+</ul>
+
+<h2 id="安装">安装</h2>
+
+<p><code class="highlighter-rouge"> sudo apt-get install simplescreenrecorder -y</code></p>
+
+<h2 id="使用">使用</h2>
+:ET

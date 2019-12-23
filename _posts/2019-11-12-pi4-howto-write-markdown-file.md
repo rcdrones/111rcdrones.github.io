@@ -8,7 +8,7 @@ tag: Raspbian-软件
 
 ## 前言
 
-Github上开源的项目，一般都是以**.md*形式存在（比如项目初始化会产生一个README.md）。这就是Markdown格式的文件。Markdown不用你去选择字号，写作的时候很少用到鼠标。可以把你的专注以限定在写作的本身。这是我的开发感悟。
+Github上开源的项目，一般都是以**.md*形式存在（比如项目初始化会产生一个README.md）。这就是Markdown格式的文件。Markdown不用你去选择字号，写作的时候很少用到鼠标。可以把你的专注力限定在写作的本身。以上是我的开发感悟。
 
 由于Pi4足够强大，一切开发的工序都在Raspbian Desktop上完成，今天我们就介绍一些Raspbian上书写Markdown的工具。
 
@@ -18,8 +18,6 @@ Github上开源的项目，一般都是以**.md*形式存在（比如项目初�
 ```
 sudo apt-get install ghostwriter -y
 ```
-
-
 
 ## Markdown语法
 

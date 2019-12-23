@@ -32,7 +32,7 @@ scan_ssid=0   		#scan_ssid:连接隐藏WiFi时需要指定该值为1
 
 
 
-扩展阅读：
+### 扩展阅读：
 
 ```
 #如果你的 WiFi 没有密码
@@ -90,7 +90,13 @@ ssh pi@192.168.1.66			#IPv4地址是Pi4的实际局域网IP地址
 SSH打命令对新手不友好。那么就用用Linux的远程桌面吧。
 
 ```
-sudo raspi-config 	#进如Pi的系统配置程序
+# 进入Pi的系统配置程序
+sudo raspi-config 	
+
+# 配置vnc默认为enable
+# 见视频
+
+# 最后重启
 sudo reboot
 ```
 

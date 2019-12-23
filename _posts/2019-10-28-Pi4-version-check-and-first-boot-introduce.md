@@ -6,13 +6,8 @@ tag: Pi4-入门
 ---   
 
 
-
-
-# Pi4 第一次启动和硬件版本鉴别
-
 ## 硬件
 连接MicroHDMI接口（主从接口，注意：插到底！），5V3A电源适配器，Type-C电源口。已经刷好系统的TF卡，插入Pi4背后的TF卡座里面。
-
 
 
 ## 软件
@@ -34,25 +29,28 @@ tag: Pi4-入门
 * 硬件鉴别
 
 1. 内存版本鉴别最简单的命令
-   pinout
+`pinout`
 
 2. htop查看占用和总容量
+`htop`
 
-3. gpio -v （通过WiringPi） *目前系统是：2019-09-26-raspbian-buster-full.zip*
+3. `gpio -v` （通过WiringPi） *目前系统是：2019-09-26-raspbian-buster-full.zip*
 
-4. 查看CPU信息
+4. 关于cpu的一些信息
 
-   lscpu
-   查看CPU 序列号：
-   cat /proc/cpuinfo 
-   查看CPU频率：
+* 查看CPU信息`lscpu`
+   
+* 查看CPU 序列号：`cat /proc/cpuinfo`
+    
+* 查看CPU频率：
 
+```
    sudo cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_max_freq 
 
    sudo cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_min_freq 
 
    sudo cat /sys/devices/system/cpu/cpu0/cpufreq/cpuinfo_cur_freq 
-
+```
 
 
 

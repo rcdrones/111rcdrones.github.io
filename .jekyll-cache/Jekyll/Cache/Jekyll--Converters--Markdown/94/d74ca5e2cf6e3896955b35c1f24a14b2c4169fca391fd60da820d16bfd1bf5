@@ -1,0 +1,29 @@
+I"�<h1 id="raspbian应用推荐好用的截图工具-flameshot-">Raspbian应用推荐：好用的截图工具（ flameshot ）</h1>
+
+<h2 id="起因">起因</h2>
+
+<p>因为我经常要在github上提交开发文档，有时候又要用pi4和相关扩展板相连。需要截取一些终端的或者桌面的图面，来丰富我的文档。所以基本上我所有的开发环境和编写文档的工作，都放在raspbian系统下面。（PS：Pi4性能已经足够强了，足以应对日常的开发需求。所以干脆所有生产力都在Pi4上完成！）</p>
+
+<h2 id="预备">预备</h2>
+
+<ul>
+  <li>Pi4 刷好最新的raspbian系统</li>
+  <li>apt国外源改成国内源</li>
+  <li>Pi4 中文字库和输入法全部设置好</li>
+</ul>
+
+<h2 id="安装">安装</h2>
+
+<p><code class="highlighter-rouge"> sudo apt-get install flameshot -y </code></p>
+
+<p>一条命令即可！欢迎品尝！</p>
+
+<h2 id="使用">使用</h2>
+
+<p>超级简单，看我的视频吧。</p>
+
+<h2 id="备注">备注</h2>
+
+<p>默认装好Raspbian full系统，系统自带截图快捷键<code class="highlighter-rouge">Print Screen</code>（在你键盘上能找到的）。默认<strong>只能</strong>全屏截图。如果不安装上面的应用，也能粗糙的应急一下吧！</p>
+
+:ET

@@ -1,0 +1,31 @@
+I"<h2 id="raspbian下安装软件命令">raspbian下安装软件命令</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>xxxxxx
+</code></pre></div></div>
+
+<h2 id="软件源更改">软件源更改</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo cp</span> /etc/apt/sources.list  /etc/apt/sources.list_backup 
+
+<span class="nb">sudo </span>nano /etc/apt/sources.list 
+
+把官方网址改成国内源的网址，例如：
+http://mirrors.aliyun.com/raspbian/raspbian/
+
+<span class="nb">sudo </span>apt-get update
+</code></pre></div></div>
+
+<h2 id="安装中文输入法">安装中文输入法</h2>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sunpinyin 
+</code></pre></div></div>
+
+<h2 id="设置中文输入法">设置中文输入法</h2>
+
+<ul>
+  <li>设置模糊音</li>
+</ul>
+
+<h2 id="百度进行测试">百度进行测试</h2>
+
+<p>google浏览器访问<a href="mp3.baidu.com">baidu音乐</a>进行测试</p>
+:ET

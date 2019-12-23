@@ -1,0 +1,45 @@
+I"�<h2 id="需求">需求</h2>
+<ul>
+  <li>我想找个raspbian下的音乐播放器？用百度？</li>
+  <li>我想找个冷门的工具？百度无解，怎么办？
+基于多个我想……，我在开发中发现了以下本地查询包名称的方案。</li>
+</ul>
+
+<h2 id="查询包名称的命令">查询包名称的命令</h2>
+
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+<span class="nb">sudo </span>apt-cache search <span class="s2">"xxx"</span>
+
+<span class="c"># 比如我想找个音频播放器</span>
+<span class="nb">sudo </span>apt-cache search <span class="s2">"audio player"</span> 
+得到关键词qmmp
+
+
+<span class="nb">sudo </span>apt-cache search <span class="s2">"foobar"</span> 
+<span class="c"># 得到关键信息lxmusic</span>
+
+
+<span class="c"># 终端返回的信息量太大，怎么办？</span>
+<span class="nb">cd</span> ~
+<span class="nb">sudo </span>apt-cache search <span class="s2">"edit"</span> <span class="o">&gt;&gt;</span> 1.txt
+<span class="c"># 然后查看1.txt文件</span>
+
+<span class="c"># 显示更多用法：</span>
+<span class="nb">sudo </span>apt-cache <span class="nt">--help</span>
+
+
+</code></pre></div></div>
+
+<h2 id="安装软件和卸载软件">安装软件和卸载软件</h2>
+<div class="language-shell highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 安装</span>
+<span class="nb">sudo </span>apt-get <span class="nb">install </span>qmmp <span class="nt">-y</span>
+
+<span class="c"># 卸载</span>
+<span class="nb">sudo </span>apt-get autoremove qmmp
+
+<span class="c"># 帮助</span>
+<span class="nb">sudo </span>apt-get <span class="nt">--help</span>
+
+</code></pre></div></div>
+
+:ET
