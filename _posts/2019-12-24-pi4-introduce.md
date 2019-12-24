@@ -19,9 +19,9 @@ Pi4 B 2019.6： 升级的比较大。最显著的是分了3个内存版本(1G、
 
 ## 选择
 
-![img](/images/sel.JPG)
+![img](/images/posts/intro/sel.jpg)
 
-<img src="/images/sel.jpg" >
+
 
 目前，我开发了2个项目。一个是树莓派的UPS（视频插图），一个是树莓派4智能风扇（视频插图），都是用4G来开发的。
 
@@ -33,7 +33,7 @@ Pi4 B 2019.6： 升级的比较大。最显著的是分了3个内存版本(1G、
 
 防静电的处理方式：
 
-![img](/images/esd.jpg)
+![img](/images/posts/intro/esd.jpg)
 
 自备无防静电的手套。就把手洗干净，并擦干（放掉了静电）。利用光盘拿法去拿板子。
 
