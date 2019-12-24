@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Pi软、硬关机，你学会了吗? "
+description: ""
 tag: Pi4-入门 
 ---   
 
