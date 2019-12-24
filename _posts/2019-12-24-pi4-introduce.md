@@ -21,7 +21,7 @@ Pi4 B 2019.6： 升级的比较大。最显著的是分了3个内存版本(1G、
 
 ![img](/images/sel.JPG)
 
-<img src="/images/sel.JPG" >
+<img src="/images/sel.jpg" >
 
 目前，我开发了2个项目。一个是树莓派的UPS（视频插图），一个是树莓派4智能风扇（视频插图），都是用4G来开发的。
 
