@@ -19,7 +19,7 @@ Pi4 B 2019.6： 升级的比较大。最显著的是分了3个内存版本(1G、
 
 ## 选择
 
-![img](/images/sel.jpg)
+![img](/images/sel.JPG)
 
 <img src="/images/sel.JPG" >
 
