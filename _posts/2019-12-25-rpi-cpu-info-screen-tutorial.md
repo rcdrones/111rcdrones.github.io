@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "树莓派CPU Mini液晶使用教学"
+title: "树莓派1.6寸CPU Mini液晶使用教学"
 description: ""
 
 tag: 树莓派外设

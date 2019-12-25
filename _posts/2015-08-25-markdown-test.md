@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "post语法"
+title: "post语法案例"
 description: ""
 tag: markdown语法 
 ---   
