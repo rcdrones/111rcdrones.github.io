@@ -3,7 +3,7 @@ layout: post
 title: "树莓派usb转串口 ttl线的mac os驱动"
 description: ""
 
-tag: 原论坛资料
+tag: 树莓派外设
 ---
 
 
