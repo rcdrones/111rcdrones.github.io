@@ -12,12 +12,14 @@ tag: 树莓派外设
 
 樹莓派上觀察CPU及RAM使用率的剩餘容量，是比較有趣的事情。同時如果樹莓派做伺服器，也可以看到linux RAM的使用變化。
 
-* 硬體篇
+
+
+### 硬體篇
 　Pi的插入方式： 
 　![img](/images/posts/cpuinfo/1.jpg)
 
-* 軟體篇
- 1. 先安裝wiring pi.
+### 軟體篇
+先安裝wiring pi.  
 
 ```
 cd ~
@@ -26,13 +28,15 @@ cd wiringPi
 ./build
 ```
 
-2. 建立工作目錄
+建立工作目錄  
 ```
 cd ~
 mkdir cpu_show
 ```
-3. 用sftp 的方法下載源代碼到/home/pi/cpu_show 下
-4. 編譯源代碼
+
+用sftp 的方法下載源代碼到/home/pi/cpu_show 下  
+
+編譯源代碼  
 ```
 cd ~/cpu_show
 
@@ -42,7 +46,8 @@ cc -o cpushow pcd8544_rpi.c PCD8544.c  -L/usr/local/lib -lwiringPi
 sudo ./cpushow
 ```
 
-### 對比度修改知識
+
+* 對比度修改知識  
 ```
 //由於每個液晶的明暗對比度有差異，如果大家發現
 //顯示的內容太黑了。或者顯示的內容太淡了。
@@ -59,7 +64,7 @@ sudo ./cpushow
 ```
 
 
-### 如果需要開機就自動運行cpushow
+* 如果需要開機就自動運行cpushow  
 ```
 sudo nano /etc/rc.local
 在最後一行exi​​t 0 以上加入如下內容：
