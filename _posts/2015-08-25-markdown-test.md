@@ -12,19 +12,18 @@ tag: markdown语法
 
 ## 正文：
 　这边教程是针对与Mac的，[参考链接](http://ibruce.info/2013/11/22/hexo-your-blog/?utm_source=tuicool)，由于原文讲到的hexo是以前的老版本，所以现在的版本配置的时候会有些改动。
-
+　阿斯顿
+阿斯顿　
 　之前是想着写博客，一方面是给自己做笔记，可以提升自己的写作、总结能力，一个技术点我们会使用，并不难，但是要做到让让别人也能听懂我们讲得，还是需要一定的技巧和经验的。很多类似于CSDN、博客园也都可以写文章，但是页面的样式我，不是太喜欢，简书还算好点得。最近看到一些大神们的博客（在我的友情链接里有），貌似都是用hexo写得，我也依葫芦画瓢的搭建了一个。不罗嗦了，直接上搭建步骤。
 
 ## 配置环境     
 
 ### 安装Node（必须）         
 
-作用：用来生成静态页面的
-到Node.js[官网](https://nodejs.org/)下载相应平台的最新版本，一路安装即可。
+作用：用来生成静态页面的到Node.js[官网](https://nodejs.org/)下载相应平台的最新版本，一路安装即可。
 
 ### 安装Git（必须）     
-作用：把本地的hexo内容提交到github上去.
-安装Xcode就自带有Git，我就不多说了。
+作用：把本地的hexo内容提交到github上去.安装Xcode就自带有Git，我就不多说了。
 
 ### 申请GitHub（必须）
 作用：是用来做博客的远程创库、域名、服务器之类的，怎么与本地hexo建立连接等下讲。
@@ -95,6 +94,7 @@ ERROR Plugin load failed: hexo-server
 	npm install hexo-renderer-marked --save
 
 这个时候再重新生成静态文件，命令：
+
 	ls
 	cd
 	exit
@@ -134,6 +134,7 @@ ERROR Plugin load failed: hexo-server
 
 	deploy:
 	  type: git
+	  哈哈:6666
 	  repository: https://github.com/leopardpan/leopardpan.github.io.git
 	  branch: master
 
