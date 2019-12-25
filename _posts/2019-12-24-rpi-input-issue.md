@@ -13,14 +13,13 @@ tag: Pi4-入门
 ## 解决方案
 
 首先介绍好用的，一键安装中文输入法：
-`sudo apt-get install fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sunpinyin `
+`sudo apt-get install fcitx fcitx-googlepinyin fcitx-module-cloudpinyin fcitx-sunpinyin `   
 
 
 
-
-
+<p>
 ![](/images/posts/input_issue/1.png)
-
+<p>
 
 
 
