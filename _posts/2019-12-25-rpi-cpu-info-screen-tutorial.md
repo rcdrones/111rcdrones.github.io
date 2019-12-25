@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ""
-description: "树莓派CPU Mini液晶使用教学"
+title: "树莓派CPU Mini液晶使用教学"
+description: ""
 
 tag: 树莓派外设
 ---
