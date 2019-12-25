@@ -17,9 +17,8 @@ tag: Pi4-入门
 
 
 
-<p>
-![](/images/posts/input_issue/1.png)
-<p>
+![img](/images/posts/input_issue/1.png)
+
 
 
 
